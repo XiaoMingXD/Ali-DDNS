@@ -20,6 +20,10 @@
   <property name="windowTitle">
    <string>阿里云API-DDNS</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pic/icon.png</normaloff>../pic/icon.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="akiL">
     <property name="geometry">
