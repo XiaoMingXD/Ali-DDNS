@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Ö÷½çÃæ.ui'
+# Form implementation generated from reading ui file 'Ã–Ã·ï¾½Ã§ÃƒÃ¦.ui'
 #
-# Created: Fri Dec 21 13:19:15 2018
+# Created: Sat Dec 29 22:58:33 2018
 #      by: PyQt5 UI code generator 5.3.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,7 +19,7 @@ class Ui_Main(object):
         sizePolicy.setHeightForWidth(Main.sizePolicy().hasHeightForWidth())
         Main.setSizePolicy(sizePolicy)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../pic/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("pic/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Main.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(Main)
         self.centralwidget.setObjectName("centralwidget")
@@ -76,10 +76,10 @@ class Ui_Main(object):
         self.textEdit.setGeometry(QtCore.QRect(4, 16, 264, 248))
         self.textEdit.setReadOnly(True)
         self.textEdit.setObjectName("textEdit")
-        Main.setCentralWidget(self.centralwidget)
+        #Main.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(Main)
         self.statusbar.setObjectName("statusbar")
-        Main.setStatusBar(self.statusbar)
+        #Main.setStatusBar(self.statusbar)
 
         self.retranslateUi(Main)
         QtCore.QMetaObject.connectSlotsByName(Main)
