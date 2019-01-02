@@ -143,7 +143,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="RicB">
     <property name="geometry">
      <rect>
       <x>8</x>
@@ -156,7 +156,7 @@
      <string>不知道RecordID？</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="StartB">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -169,7 +169,7 @@
      <string>开始</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="AboutB">
     <property name="geometry">
      <rect>
       <x>316</x>
@@ -182,7 +182,7 @@
      <string>关于</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="DebugC">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -195,7 +195,7 @@
      <string>调试输出</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="StopB">
     <property name="geometry">
      <rect>
       <x>218</x>
@@ -220,7 +220,7 @@
     <property name="title">
      <string>调试输出</string>
     </property>
-    <widget class="QTextEdit" name="textEdit">
+    <widget class="QTextEdit" name="Debug">
      <property name="geometry">
       <rect>
        <x>4</x>
@@ -243,12 +243,12 @@
   <tabstop>DN</tabstop>
   <tabstop>RI</tabstop>
   <tabstop>RT</tabstop>
-  <tabstop>pushButton</tabstop>
-  <tabstop>pushButton_2</tabstop>
-  <tabstop>pushButton_4</tabstop>
-  <tabstop>checkBox</tabstop>
-  <tabstop>pushButton_3</tabstop>
-  <tabstop>textEdit</tabstop>
+  <tabstop>RicB</tabstop>
+  <tabstop>StartB</tabstop>
+  <tabstop>StopB</tabstop>
+  <tabstop>DebugC</tabstop>
+  <tabstop>AboutB</tabstop>
+  <tabstop>Debug</tabstop>
  </tabstops>
  <resources/>
  <connections/>

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Ö÷ﾽçÃæ.ui'
+# Form implementation generated from reading ui file '׷ާĦ.ui'
 #
-# Created: Sat Dec 29 22:58:33 2018
+# Created: Tue Jan  1 19:20:10 2019
 #      by: PyQt5 UI code generator 5.3.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -54,28 +54,28 @@ class Ui_Main(object):
         self.RT = QtWidgets.QLineEdit(self.centralwidget)
         self.RT.setGeometry(QtCore.QRect(120, 186, 288, 40))
         self.RT.setObjectName("RT")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(8, 239, 102, 40))
-        self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(120, 239, 88, 40))
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(316, 256, 88, 24))
-        self.pushButton_3.setObjectName("pushButton_3")
-        self.checkBox = QtWidgets.QCheckBox(self.centralwidget)
-        self.checkBox.setGeometry(QtCore.QRect(320, 235, 88, 24))
-        self.checkBox.setObjectName("checkBox")
-        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(218, 239, 88, 40))
-        self.pushButton_4.setObjectName("pushButton_4")
+        self.RicB = QtWidgets.QPushButton(self.centralwidget)
+        self.RicB.setGeometry(QtCore.QRect(8, 239, 102, 40))
+        self.RicB.setObjectName("RicB")
+        self.StartB = QtWidgets.QPushButton(self.centralwidget)
+        self.StartB.setGeometry(QtCore.QRect(120, 239, 88, 40))
+        self.StartB.setObjectName("StartB")
+        self.AboutB = QtWidgets.QPushButton(self.centralwidget)
+        self.AboutB.setGeometry(QtCore.QRect(316, 256, 88, 24))
+        self.AboutB.setObjectName("AboutB")
+        self.DebugC = QtWidgets.QCheckBox(self.centralwidget)
+        self.DebugC.setGeometry(QtCore.QRect(320, 235, 88, 24))
+        self.DebugC.setObjectName("DebugC")
+        self.StopB = QtWidgets.QPushButton(self.centralwidget)
+        self.StopB.setGeometry(QtCore.QRect(218, 239, 88, 40))
+        self.StopB.setObjectName("StopB")
         self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
         self.groupBox.setGeometry(QtCore.QRect(424, 8, 272, 272))
         self.groupBox.setObjectName("groupBox")
-        self.textEdit = QtWidgets.QTextEdit(self.groupBox)
-        self.textEdit.setGeometry(QtCore.QRect(4, 16, 264, 248))
-        self.textEdit.setReadOnly(True)
-        self.textEdit.setObjectName("textEdit")
+        self.Debug = QtWidgets.QTextEdit(self.groupBox)
+        self.Debug.setGeometry(QtCore.QRect(4, 16, 264, 248))
+        self.Debug.setReadOnly(True)
+        self.Debug.setObjectName("Debug")
         #Main.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(Main)
         self.statusbar.setObjectName("statusbar")
@@ -87,13 +87,14 @@ class Ui_Main(object):
         Main.setTabOrder(self.AKS, self.DN)
         Main.setTabOrder(self.DN, self.RI)
         Main.setTabOrder(self.RI, self.RT)
-        Main.setTabOrder(self.RT, self.pushButton)
-        Main.setTabOrder(self.pushButton, self.pushButton_2)
-        Main.setTabOrder(self.pushButton_2, self.pushButton_4)
-        Main.setTabOrder(self.pushButton_4, self.checkBox)
-        Main.setTabOrder(self.checkBox, self.pushButton_3)
-        Main.setTabOrder(self.pushButton_3, self.textEdit)
-
+        Main.setTabOrder(self.RT, self.RicB)
+        Main.setTabOrder(self.RicB, self.StartB)
+        Main.setTabOrder(self.StartB, self.StopB)
+        Main.setTabOrder(self.StopB, self.DebugC)
+        Main.setTabOrder(self.DebugC, self.AboutB)
+        Main.setTabOrder(self.AboutB, self.Debug)
+        print self.DebugC
+		
     def retranslateUi(self, Main):
         _translate = QtCore.QCoreApplication.translate
         Main.setWindowTitle(_translate("Main", "阿里云API-DDNS"))
@@ -102,10 +103,10 @@ class Ui_Main(object):
         self.dnL.setText(_translate("Main", "Domain Name"))
         self.riL.setText(_translate("Main", "Record ID"))
         self.rtL.setText(_translate("Main", "Record Type"))
-        self.pushButton.setText(_translate("Main", "不知道RecordID？"))
-        self.pushButton_2.setText(_translate("Main", "开始"))
-        self.pushButton_3.setText(_translate("Main", "关于"))
-        self.checkBox.setText(_translate("Main", "调试输出"))
-        self.pushButton_4.setText(_translate("Main", "停止"))
+        self.RicB.setText(_translate("Main", "不知道RecordID？"))
+        self.StartB.setText(_translate("Main", "开始"))
+        self.AboutB.setText(_translate("Main", "关于"))
+        self.DebugC.setText(_translate("Main", "调试输出"))
+        self.StopB.setText(_translate("Main", "停止"))
         self.groupBox.setTitle(_translate("Main", "调试输出"))
 
