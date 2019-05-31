@@ -93,7 +93,7 @@ class Ui_Main(object):
         Main.setTabOrder(self.StopB, self.DebugC)
         Main.setTabOrder(self.DebugC, self.AboutB)
         Main.setTabOrder(self.AboutB, self.Debug)
-        print self.DebugC
+        print(self.DebugC)
 		
     def retranslateUi(self, Main):
         _translate = QtCore.QCoreApplication.translate

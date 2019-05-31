@@ -10,7 +10,7 @@ class MainWind(QWidget, Ui_Main):
         self.DebugC.stateChanged.connect(self.DebugCc)
         
     def DebugCc(self, state):
-        print state
+        print(state)
         if state == 2:
             self.resize(705, 303)
         else:
