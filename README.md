@@ -29,7 +29,7 @@ Python版本地址:[Github](https://github.com/XiaoMingXD/Ali-DDNS/tree/Python)
 * 在易语言和Python自己的分支下会有单独的更新记录
 </details>
 
-以下是版本更新记录
+## 以下是版本更新记录
 <details>
 <summary markdown="span">易语言版本更新记录
 </summary>
