@@ -29,24 +29,17 @@ Python版本地址:[Github](https://github.com/XiaoMingXD/Ali-DDNS/tree/Python)
 * 在易语言和Python自己的分支下会有单独的更新记录
 </details>
 
-## 以下是版本更新记录
-<details>
-<summary markdown="span">易语言版本更新记录
-</summary>
-* 易语言版本 E0.0.1.001<br>
-2019.6.23<br>
-不知道之前都干啥了<br>
-这是第一个版本号 暂时还没有release<p>
-</details>
+### 以下是版本更新记录
+#### 易语言版本更新记录  
+* 易语言版本 E0.0.1.001  
+2019.6.23  
+不知道之前都干啥了  
+这是第一个版本号 暂时还没有release  
 
-<details>
-<summary markdown="span">Python版本更新记录
-</summary>
-* Python版本 P0.0.1<br>
-2018.12.20<br>
-本软件的UI界面是用PyQt5写的 所有的.UI文件都在UI文件夹里了<br>
-到2018.12.20为止 只写了一个UI界面<p>
-</details>
-
+#### Python版本更新记录  
+* Python版本 P0.0.1  
+2018.12.20  
+本软件的UI界面是用PyQt5写的 所有的.UI文件都在UI文件夹里了  
+到2018.12.20为止 只写了一个UI界面
 
 # End Of File
